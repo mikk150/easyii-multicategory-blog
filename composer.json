@@ -1,0 +1,14 @@
+{
+  "name": "mikk150/easyii-multicategory-blog",
+  "description": "Easyii blog item in multiple categories",
+  "type": "yii2-extension",
+  "keywords": ["easyii", "blog", "navigation"],
+  "requires" :{
+    "noumo/easyii": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "mikk150\\blog\\": "src/"
+    }
+  }
+}
