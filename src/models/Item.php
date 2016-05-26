@@ -40,6 +40,20 @@ class Item extends ArticleItem
         ];
     }
 
+    public function attributeLabels()
+    {
+        return [
+            'title' => Yii::t('easyii', 'Title'),
+            'text' => Yii::t('easyii', 'Text'),
+            'short' => Yii::t('easyii', 'Short'),
+            'image' => Yii::t('easyii', 'Image'),
+            'time' => Yii::t('easyii', 'Date'),
+            'slug' => Yii::t('easyii', 'Slug'),
+            'tagNames' => Yii::t('easyii', 'Tags'),
+        ];
+    }
+
+
     public function setCategoryIds($value)
     {
         $this->_categoryIds=$value;
